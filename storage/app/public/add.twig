@@ -1,0 +1,47 @@
+<div class="row">
+    <div class="col">
+        <div class="mb-3">
+            <label for="invoice_number" class="form-label">Invoice number</label>
+            <input type="text" class="form-control" id="invoice_number">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="mb-3">
+            <label for="invoice_date" class="form-label">Invoice date</label>
+            <input type="date" class="form-control" id="invoice_date">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="mb-3">
+            <label for="invoice_total" class="form-label">Total</label>
+            <input type="number" disabled="disabled" class="form-control" id="invoice_total" value="0.00">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="row">
+            <div class="col-2">Name</div>
+            <div class="col-2">Unit</div>
+            <div class="col-2">Quantity</div>
+            <div class="col-2">Price</div>
+            <div class="col-2">Sum</div>
+            <div class="col-2">Actions</div>
+        </div>
+        <div class="row">
+            <div class="co-12" id="positions">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <button id="invoice_add">Save</button>
+        <button id="invoice_cancel">Cancel</button>
+    </div>
+</div>

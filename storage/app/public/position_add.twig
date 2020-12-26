@@ -1,0 +1,8 @@
+<div class="row" id="position_add">
+    <div class="col-2"><input type="text" id="position_add_name"></div>
+    <div class="col-2"><input type="text" id="position_add_unit"></div>
+    <div class="col-2"><input type="number" id="position_add_quantity" value="0" onchange="$('input#position_add_sum').val(parseFloat($('input#position_add_quantity').val())*parseFloat($('input#position_add_price').val()))"></div>
+    <div class="col-2"><input type="number" id="position_add_price" value="0" onchange="$('input#position_add_sum').val(parseFloat($('input#position_add_quantity').val())*parseFloat($('input#position_add_price').val()))"></div>
+    <div class="col-2"><input type="number" disabled="disabled" id="position_add_sum"></div>
+    <div class="col-2"><button id="position_add">Add</button></div>
+</div>
